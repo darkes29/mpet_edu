@@ -1,0 +1,175 @@
+.first-screen {
+    position: absolute;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+    background: #EEEFF1;
+}
+.ok{
+    position: absolute;
+width: 225px;
+height: 65px;
+left: 975px;
+top: 482px;
+
+background: #34547A;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #FFFFFF;
+}
+
+.look {
+position: absolute;
+width: 357px;
+height: 233.7px;
+left: 487px;
+top: 271px;
+}
+
+.title_text{
+    position: absolute;
+    width: 541px;
+    height: 45px;
+    left: 974px;
+    top: 250px;
+
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 79px;
+
+color: #000000;
+}
+.simple_text {
+    position: absolute;
+width: 540px;
+height: 67px;
+left: 975px;
+top: 355px;
+
+/* p */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+
+color: #727272;
+}
+
+.logo {
+    position: absolute;
+width: 96px;
+height: 60px;
+left: 402px;
+top: 50px;
+
+font-family: Revalia;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 60px;
+/* identical to box height */
+
+text-align: center;
+
+color: #34547A;
+}
+
+.menu{
+    position: absolute;
+    width: 611px;
+    height: 16px;
+    left: 896px;
+    top: 72px;
+}
+.link_menu{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #000000;
+    margin: 0.5em;
+}
+.link_menu:active {
+    font-weight: 500;
+    color: #34547A;
+ }
+ .about_me{
+    position: absolute;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: 700px;
+    background: rgb(226, 120, 120);
+ }
+ .work{
+    position: absolute;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: 1400px;
+    background: rgb(139, 42, 42);
+ }
+ .process{
+    position: absolute;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: 2100px;
+    background: rgb(36, 36, 36);
+ }
+ .contact{
+    position: absolute;
+    width: 1920px;
+    height: 700px;
+    left: 0px;
+    top: 2800px;
+    background: rgb(61, 246, 4)
+ }
+ /*-----------------ВОЗВРАТ К ВЕРХУ----------------------*/
+#back-top {
+    position: fixed;
+    bottom: 0px;
+    padding: 0px;
+    left: 50%;  
+    margin-left: 500px;
+    z-index:99991;
+    }
+#back-top a{
+    width: 77px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.25);
+    display:block;
+    text-decoration:none;
+    -webkit-transition: all linear 0.2s; 
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    text-align: center;
+     
+    }
+ 
+#back-top a:hover{
+    height: 70px;
+    background: #663399;
+    -webkit-transition: all linear 0.2s; 
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+    color: #fff;
+    }
